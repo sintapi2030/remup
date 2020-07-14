@@ -38,7 +38,51 @@ body {
   }
 }
 
-.Main{
+.Main {
   height: 80vh;
   width: 100%;
+  overflow: scroll;
+  background: black;
+}
+
+div.Group {
+  transform: perspective(200px) rotateX(10deg);  
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+  li {
+    list-style: none;     
+    flex: 1 1 33%;
+    text-align: center;
+    // border:2px solid white;
+    // border-width: 0 1px 1px 0;
+    
+    &:nth-child(3n) {
+      border-width: 0 0 1px 0;
+    }
+    
+    span {      
+      padding: 20px;
+      display: block;
+      color: lightskyblue;
+    }
+  }
+}
+
+
+ul {
+  animation: pulse 5s infinite;  
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
 }
