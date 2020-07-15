@@ -50,18 +50,28 @@ body {
       }
       &_light{
         // width: 100px;
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
         &_login{
           padding: 15px;
-          margin-right: 60px;
+          margin: 50px 90px 35px 20px;
           background-color: rgb(6, 59, 56);
           box-shadow: 0 0 20px 0 rgb(38, 97, 99);
           border-radius: 28px;
+          text-align: center;
           a{
             text-decoration: none;
             color: rgb(178, 211, 180);
           }
+        }
+        &_userName{
+          margin: 0 60px 0 20px;
+          padding: 2px 30px 0 32px;
+          background-color: rgb(6, 59, 56);
+          box-shadow: 0 0 20px 0 rgb(38, 97, 99);
+          border-radius: 28px;
+          text-align: center;
+          color: rgb(178, 211, 180);
         }
       }
     }
