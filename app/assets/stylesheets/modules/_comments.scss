@@ -41,7 +41,7 @@ body {
       justify-content: space-between;
       &_title{
         color: rgb(178, 211, 180);
-        background-color:rgb(6, 59, 56);
+        background-color:rgb(4, 46, 43);
         margin: 50px 60px;
         padding: 30px;
         box-shadow: 0 0 20px 0 rgb(38, 97, 99);
@@ -55,7 +55,7 @@ body {
         &_login{
           padding: 15px;
           margin: 50px 90px 35px 20px;
-          background-color: rgb(6, 59, 56);
+          background-color: rgb(4, 46, 43);
           box-shadow: 0 0 20px 0 rgb(38, 97, 99);
           border-radius: 28px;
           text-align: center;
@@ -67,7 +67,7 @@ body {
         &_userName{
           margin: 0 60px 0 20px;
           padding: 2px 30px 0 32px;
-          background-color: rgb(6, 59, 56);
+          background-color: rgb(4, 46, 43);
           box-shadow: 0 0 20px 0 rgb(38, 97, 99);
           border-radius: 28px;
           text-align: center;
@@ -82,7 +82,9 @@ body {
   height: 80vh;
   width: 100%;
   overflow: scroll;
-  background: black;
+  background-image: url(https://wallpapercave.com/wp/Y0StpXn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.Group {
@@ -116,8 +118,8 @@ ul {
 ul {
   // ここだけ元に戻す
   //  解除すると動く、パソコン暑くなるからコメントアウト
-  // animation: pulse 5s infinite;  
-  // animation-direction: alternate;
+  animation: pulse 5s infinite;  
+  animation-direction: alternate;
 }
 
 @keyframes pulse {
