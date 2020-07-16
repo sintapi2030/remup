@@ -8,4 +8,18 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application'
   %body
-    = yield
+    .Header
+      .Header_image
+        .Header_image_box
+          %h2.Header_image_box_title
+            仮タイトル
+          .Header_image_box_light
+            .Header_image_box_light_login
+              = link_to "" do
+                ログイン
+            %h5.Header_image_box_light_userName
+              -# = current_user.name
+              仮ユーザー
+      = yield
+
+
