@@ -41,7 +41,7 @@ body {
       display: flex;
       justify-content: space-between;
       &_title{
-        color: rgb(178, 211, 180);
+        color: rgb(55, 114, 59);
         background-color:rgb(1, 29, 27);
         margin: 50px 60px;
         padding: 30px;
@@ -63,7 +63,7 @@ body {
           text-align: center;
           a{
             text-decoration: none;
-            color: rgb(178, 211, 180);
+            color: rgb(55, 114, 59);
           }
         }
         &_userName{
@@ -73,7 +73,7 @@ body {
           box-shadow: 0 0 20px 0 rgb(0, 0, 0);
           border-radius: 28px;
           text-align: center;
-          color: rgb(178, 211, 180);
+          color: rgb(55, 114, 59);
         }
       }
     }
@@ -144,4 +144,29 @@ ul {
   overflow: scroll;
   height: 80vh;
   width: 100%;
+  filter: contrast(1.5);
+  animation: haunted 5s;
+}
+@keyframes haunted {
+  0% {
+    filter: brightness(20%);
+  }
+  48% {
+    filter: brightness(20%);
+  }
+  50% {
+    filter: sepia(1) contrast(2) brightness(200%);
+  }
+  60% {
+    filter: sepia(1) contrast(2) brightness(200%);
+  }
+  62% {
+    filter: brightness(20%);
+  }
+  96% {
+    filter: brightness(20%);
+  }
+  96% {
+    filter: brightness(200%);
+  }
 }
