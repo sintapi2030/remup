@@ -14,6 +14,9 @@ class CommentsController < ApplicationController
   def games
   end
 
+  def products
+  end
+
   def tools
   end
 
