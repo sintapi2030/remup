@@ -118,8 +118,8 @@ ul {
 ul {
   // ここだけ元に戻す
   //  解除すると動く、パソコン暑くなるからコメントアウト
-  animation: pulse 5s infinite;  
-  animation-direction: alternate;
+  // animation: pulse 5s infinite;  
+  // animation-direction: alternate;
 }
 
 @keyframes pulse {
