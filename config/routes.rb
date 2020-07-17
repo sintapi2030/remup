@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'comments/doramas'
   get 'comments/musics'
   get 'comments/games'
+  get 'comments/radios'
+  get 'comments/sns'
   get 'comments/products'
   get 'comments/tools'
   get 'comments/foods'
