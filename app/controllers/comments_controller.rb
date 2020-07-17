@@ -14,6 +14,12 @@ class CommentsController < ApplicationController
   def games
   end
 
+  def radios
+  end
+
+  def sns
+  end
+
   def products
   end
 
