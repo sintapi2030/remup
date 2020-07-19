@@ -33,7 +33,7 @@ body {
     background-image: url(https://t4.ftcdn.net/jpg/01/40/21/15/240_F_140211529_rSVI4Lnw9eymp1QYtiZ6rhwboLOrg4uO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.95;
+    // opacity: 0.95;
     height: 100%;
     width: 100%;
     &_box{
@@ -55,8 +55,8 @@ body {
         // display: flex;
         // align-items: center;
         &_login{
-          padding: 15px;
-          margin: 50px 90px 35px 20px;
+          // padding: 15px;
+          margin: 50px 90px 50px 20px;
           background-color: rgb(1, 29, 27);
           box-shadow: 0 0 20px 0 rgb(0, 0, 0);
           border-radius: 28px;
@@ -67,8 +67,8 @@ body {
           }
         }
         &_userName{
-          margin: 0 60px 0 20px;
-          padding: 2px 30px 0 32px;
+          margin: 0 70px 0 20px;
+          padding: 2px 60px 2px 60px;
           background-color: rgb(1, 29, 27);
           box-shadow: 0 0 20px 0 rgb(0, 0, 0);
           border-radius: 28px;

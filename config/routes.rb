@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'comments/index'
+  # devise_for :users
+  # get 'comments/index'
       # rootが上?
-  root "comments#index"   
+  root "comments#index"
+  resources :users, only: [:edit, :update]   
   get 'comments/movies'
   get 'comments/doramas'
   get 'comments/musics'

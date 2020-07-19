@@ -1,12 +1,11 @@
--# .Header
--#   .Header_image
--#     .Header_image_box
--#       %h2.Header_image_box_title
--#         仮タイトル
--#       .Header_image_box_light
--#         .Header_image_box_light_login
--#           = link_to "" do
--#             ログイン
--#         %h5.Header_image_box_light_userName
--#           -# = current_user.name
--#           仮ユーザー
+.Header
+  .Header_image
+    .Header_image_box
+      %h2.Header_image_box_title
+        remup
+      .Header_image_box_light
+        .Header_image_box_light_login
+          = link_to edit_user_path(current_user) do
+            = icon('fas', 'cog')
+        %h5.Header_image_box_light_userName
+          = current_user.name
