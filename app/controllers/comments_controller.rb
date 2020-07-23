@@ -5,9 +5,6 @@ class CommentsController < ApplicationController
   def movies
   end
 
-  def doramas
-  end
-
   def musics
   end
 
@@ -35,16 +32,13 @@ class CommentsController < ApplicationController
   def refreshs
   end
 
-  def lifes
-  end
-
   def studys
   end
 
   def sports
   end
 
-  def freedays
+  def jobs
   end
 
   def deliverys
