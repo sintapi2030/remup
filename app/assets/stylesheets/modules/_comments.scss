@@ -64,6 +64,15 @@ body {
     width: 100%;
     opacity: 0.9;
   }
+  &_imageSNS{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEg97HsTxE2SM1vemVR7-cx0eRLOZi0kJpvQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(3.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
 
   &_image{
     background-image: url(https://t4.ftcdn.net/jpg/01/40/21/15/240_F_140211529_rSVI4Lnw9eymp1QYtiZ6rhwboLOrg4uO.jpg);
@@ -256,6 +265,30 @@ body {
 }
 
 .Main_r_radios{
+  display: flex;
+  justify-content: space-between;
+  &_eachLeft{
+    color: white;
+    margin: 90px 200px 70px 300px;
+  }
+  &_eachRight{
+    color: white;
+    margin: 90px 300px 70px 200px;
+  }
+}
+
+.Main_sns{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwTNk1i-Zm5VbPiaJakWIzg6bzE6rk3kILUg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 80vh;
+  width: 100%;
+  filter: contrast(2.5);
+  animation: haunted 5s;
+}
+
+.Main_sns_sns{
   display: flex;
   justify-content: space-between;
   &_eachLeft{
