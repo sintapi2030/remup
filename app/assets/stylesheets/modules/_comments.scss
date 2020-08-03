@@ -73,6 +73,25 @@ body {
     width: 100%;
     opacity: 0.9;
   }
+  &_imageJOB{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3_VhKNrpvOA1kp-Mjxy7wY6YyEDKxKK4QCw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(1.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+  &_imageSP{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBkY_y754N_rzWOBNPk9bxWT6gwaASTQ0axA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    border: outset;
+  }
 
   &_image{
     background-image: url(https://t4.ftcdn.net/jpg/01/40/21/15/240_F_140211529_rSVI4Lnw9eymp1QYtiZ6rhwboLOrg4uO.jpg);
@@ -301,6 +320,30 @@ body {
   }
 }
 
+.Main_jobs{
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/08/background-159244__340.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 80vh;
+  width: 100%;
+  filter: brightness(0.8);
+  animation: haunted 5s;
+}
+
+.Main_jobs_job{
+  display: flex;
+  justify-content: space-between;
+  &_eachLeft{
+    color: white;
+    margin: 90px 200px 70px 300px;
+  }
+  &_eachRight{
+    color: white;
+    margin: 90px 300px 70px 200px;
+  }
+}
+
 .logo_left{
   height: 100px;
   width: 180px;
@@ -314,6 +357,29 @@ body {
   border-radius: 60px;
 }
 
+.Main_sport{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSG3Z4EgSsuKXuhTDcoWlRnzCU5AWU9M-KyYQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 80vh;
+  width: 100%;
+  filter: contrast(1.5);
+  animation: haunted 5s;
+}
+
+.Main_sport_s{
+  display: flex;
+  justify-content: space-between;
+  &_eachLeft{
+    color: white;
+    margin: 90px 200px 70px 300px;
+  }
+  &_eachRight{
+    color: white;
+    margin: 90px 300px 70px 200px;
+  }
+}
 
 .Main_dery {
   animation:slide 3s ease-in-out 1;
