@@ -119,6 +119,7 @@ body {
         border-radius: 28px;
         display: flex;
         text-align: center;
+        display: -webkit-inline-box;
       }
       &_light{
         // width: 100px;

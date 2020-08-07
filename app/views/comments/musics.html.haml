@@ -1,8 +1,9 @@
 .Header
   .Header_imageMu
     .Header_image_box
-      %h2.Header_image_box_title
-        musics
+      =link_to root_path do
+        %h2.Header_image_box_title
+          musics
       .Header_image_box_light
         .Header_image_box_light_login
           = link_to edit_user_path(current_user) do
