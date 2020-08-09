@@ -103,6 +103,26 @@ body {
     opacity: 0.9;
   }
 
+  &_imageR{
+    background-image: url(https://image.freepik.com/free-photo/_7182-1735.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(2);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  &_imageGM{
+    background-color: orchid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+
   &_imageDR{
     background-color: rgb(53, 147, 255);
     height: 100%;
@@ -349,6 +369,30 @@ body {
 }
 
 .Main_jobs_job{
+  display: flex;
+  justify-content: space-between;
+  &_eachLeft{
+    color: white;
+    margin: 90px 200px 70px 300px;
+  }
+  &_eachRight{
+    color: white;
+    margin: 90px 300px 70px 200px;
+  }
+}
+
+.Main_gm{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRfy8yJzlHc_WiIfgXgBEAGRX7t4A4051W_Q&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 80vh;
+  width: 100%;
+  filter: brightness(0.7);
+  animation: haunted 5s;
+}
+
+.Main_gm_games{
   display: flex;
   justify-content: space-between;
   &_eachLeft{
