@@ -93,6 +93,16 @@ body {
     border: outset;
   }
 
+  &_imageST{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTenFBslQPe310Q4_YMs5FUoIThDW1iKUTTmQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+
   &_imageDR{
     background-color: rgb(53, 147, 255);
     height: 100%;
@@ -400,6 +410,30 @@ body {
 }
 
 .Main_dr_drinks{
+  display: flex;
+  justify-content: space-between;
+  &_eachLeft{
+    color: white;
+    margin: 90px 200px 70px 300px;
+  }
+  &_eachRight{
+    color: white;
+    margin: 90px 300px 70px 200px;
+  }
+}
+
+.Main_st{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtHtyciPs0VwRvGpHf162kNyW_3vDYX64aug&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  height: 80vh;
+  width: 100%;
+  filter: contrast(0.9);
+  animation: haunted 5s;
+}
+
+.Main_st_studys{
   display: flex;
   justify-content: space-between;
   &_eachLeft{
