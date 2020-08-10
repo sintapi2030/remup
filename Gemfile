@@ -60,3 +60,7 @@ gem 'font-awesome-sass'
 gem 'jquery-rails'
 
 gem 'devise'
+
+group :production do
+  gem 'pg'
+end
