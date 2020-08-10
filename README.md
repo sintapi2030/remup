@@ -31,7 +31,7 @@ Ruby 2.6.5
 
 # Author
 https://git.heroku.com/remup.git
-*s79.matsushita.takuma@gmail.com
+<p>s79.matsushita.takuma@gmail.com
 
 # データベース:datebase 
 
