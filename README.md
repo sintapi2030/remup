@@ -30,7 +30,7 @@ Ruby 2.6.5
 <p>haml-rails", ">= 1.0", '<= 2.0.1'
 
 # Author
-https://git.heroku.com/remup.git
+https://remup.herokuapp.com/users/sign_in
 <p>s79.matsushita.takuma@gmail.com
 
 # データベース:datebase 
