@@ -7,7 +7,7 @@
  <p>Movies: Links are linking to sites such as music.
   
 #ログイン:パスワード
- <p>ログイン(email):login
+ <p>ログイン:login(email)
  [test@ex.com]
  <p>パスワード:password
  [test1111]
