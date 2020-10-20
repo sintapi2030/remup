@@ -5,6 +5,12 @@
  <p>I wish I had a website that I could enjoy at home.
  I created it.
  <p>Movies: Links are linking to sites such as music.
+  
+#ログイン:パスワード
+ <p>ログイン(email):login
+ [test@ex.com]
+ <p>パスワード:password
+ [test1111]
 
 # 説明：Description
 [![Image from Gyazo](https://i.gyazo.com/a263a5e9f8d460c630f11a9e723420cf.gif)](https://gyazo.com/a263a5e9f8d460c630f11a9e723420cf)
